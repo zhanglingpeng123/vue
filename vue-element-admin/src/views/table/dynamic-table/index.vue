@@ -8,7 +8,8 @@
     <div style="margin:30px 0 5px 20px">
       Not fixed header, sorted by click order
     </div>
-    <UnfixedThead />
+    <!--<UnfixedThead />-->
+    <unfixed-thead/>
   </div>
 </template>
 

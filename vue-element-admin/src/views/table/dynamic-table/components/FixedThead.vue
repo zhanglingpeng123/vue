@@ -3,18 +3,18 @@
     <div class="filter-container">
       <el-checkbox-group v-model="checkboxVal">
         <el-checkbox label="apple">
-          apple
+          id
         </el-checkbox>
         <el-checkbox label="banana">
-          banana
+          username
         </el-checkbox>
         <el-checkbox label="orange">
-          orange
+          password
         </el-checkbox>
       </el-checkbox-group>
     </div>
     <el-table :key="key" :data="tableData2" border fit highlight-current-row style="width: 100%">
-      <el-table-column prop="id" label="fruitName" width="180" />
+      <el-table-column prop="id" label="id" width="180" />
       <el-table-column v-for="fruit in formThead2" :key="fruit" :label="fruit">
         <template slot-scope="scope">
           {{ scope.row[fruit] }}
